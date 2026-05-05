@@ -34,6 +34,7 @@ Brand notes:
 - Visual assets are under `assets/`
 - Active visual assets are optimized `.webp` files for faster load and lower bandwidth use.
 - The visual direction follows the approved Rohini style references: cosmic navy, royal gold, warm ivory, devotional/astrology ornaments, and serif display headings.
+- Interface icons use inline SVGs adapted from the open-source Lucide icon set.
 
 Current CTA target:
 
