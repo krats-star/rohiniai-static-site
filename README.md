@@ -32,8 +32,8 @@ Brand notes:
 
 - See `brand-notes.md`
 - Visual assets are under `assets/`
-- Active visual assets are optimized `.webp` files for faster load and lower bandwidth use.
-- The visual direction follows the approved Rohini style references: cosmic navy, royal gold, warm ivory, devotional/astrology ornaments, and serif display headings.
+- Active visual assets are optimized `.webp` and `.jpg` files for faster load and lower bandwidth use.
+- The visual direction follows the approved Facebook-cover-inspired Rohini style: black maroon, royal gold, warm ivory, devotional astrology ornaments, zodiac-ring portrait treatment, and serif display headings.
 - Interface icons use inline SVGs adapted from the open-source Lucide icon set.
 
 Current CTA target:

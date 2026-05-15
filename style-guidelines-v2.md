@@ -29,13 +29,13 @@ Use these as abstract principles:
 
 Palette:
 
-- Cosmic Navy: `#071020`
-- Midnight Blue: `#101A33`
+- Black Maroon: `#08030B`
+- Wine: `#220812`
+- Deep Maroon: `#4B0714`
 - Warm Ivory: `#FFF4D8`
-- Royal Gold: `#D9A227`
-- Highlight Gold: `#FFD766`
-- Saffron: `#F6A935`
-- Deep Maroon: `#6E0000`
+- Royal Gold: `#D99B22`
+- Highlight Gold: `#FFE46D`
+- Saffron: `#FF9F24`
 - Peacock Teal: `#1E6F70`
 
 Typography:
@@ -46,7 +46,7 @@ Typography:
 
 Graphics:
 
-- Use approved Rohini assets sparingly: lotus, diya, zodiac arc, gold ornaments.
+- Use the Facebook cover direction as the active reference: Rohini portrait, zodiac ring, diya, marigold, bell, kalash, chart paper, and temple silhouettes.
 - Use one main visual anchor per section.
 - Avoid filling all blank space with decoration.
 
