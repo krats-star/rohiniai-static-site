@@ -128,7 +128,7 @@ a {
 
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: 94vh;
   display: grid;
   align-items: center;
   overflow: hidden;
@@ -142,25 +142,24 @@ a {
 }
 
 .hero-bg {
-  background-image: url("assets/astro-by-rohini-cover.jpg");
+  background-image: url("assets/hero-temple.webp");
   background-size: cover;
   background-position: center;
-  opacity: 0.34;
-  filter: saturate(1.12) contrast(1.08);
   transform: scale(1.02);
 }
 
 .hero-overlay {
   background:
-    linear-gradient(90deg, rgba(8, 3, 11, 0.98) 0%, rgba(20, 7, 14, 0.9) 45%, rgba(8, 3, 11, 0.36) 100%),
-    linear-gradient(0deg, rgba(8, 3, 11, 0.96) 0%, rgba(8, 3, 11, 0.1) 48%, rgba(8, 3, 11, 0.78) 100%),
-    repeating-radial-gradient(circle at 18% 20%, rgba(255, 228, 109, 0.22) 0 1px, transparent 1px 72px);
+    radial-gradient(circle at 78% 38%, rgba(255, 215, 102, 0.14), transparent 18%),
+    linear-gradient(115deg, transparent 58%, rgba(255, 244, 216, 0.08) 58%, transparent 68%),
+    linear-gradient(90deg, rgba(8, 3, 11, 0.95) 0%, rgba(8, 3, 11, 0.76) 45%, rgba(8, 3, 11, 0.22) 100%),
+    linear-gradient(0deg, rgba(8, 3, 11, 0.84) 0%, rgba(8, 3, 11, 0) 42%);
 }
 
 .hero-content {
   position: relative;
-  z-index: 3;
-  width: min(740px, calc(100% - 36px));
+  z-index: 2;
+  width: min(780px, calc(100% - 36px));
   margin-left: clamp(18px, 7vw, 92px);
   padding-top: 76px;
 }
@@ -179,31 +178,23 @@ a {
   margin: 0;
   color: var(--gold-bright);
   font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
-  font-size: clamp(4.1rem, 9vw, 8.5rem);
-  line-height: 0.88;
+  font-size: clamp(4.2rem, 13vw, 9.8rem);
+  line-height: 0.9;
   font-weight: 700;
   text-shadow: 0 10px 34px rgba(0, 0, 0, 0.64), 0 0 24px rgba(255, 171, 36, 0.24);
 }
 
 .hero-ornament {
   display: block;
-  width: min(320px, 62vw);
+  width: min(270px, 62vw);
   height: auto;
-  margin: 16px 0 0;
+  margin: 18px 0 0;
   filter: drop-shadow(0 12px 26px rgba(0, 0, 0, 0.45));
-}
-
-.hero-devotional-line {
-  margin: 16px 0 0;
-  color: var(--ivory);
-  font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: clamp(1.18rem, 2.2vw, 1.55rem);
-  font-weight: 700;
 }
 
 .hero-copy {
   max-width: 660px;
-  margin: 22px 0 0;
+  margin: 26px 0 0;
   color: rgba(255, 244, 216, 0.9);
   font-size: clamp(1.1rem, 2vw, 1.42rem);
 }
@@ -241,38 +232,6 @@ a {
   box-shadow: inset 0 1px 0 rgba(255, 244, 216, 0.08);
   font-size: 0.92rem;
   font-weight: 720;
-}
-
-.hero-visual {
-  position: absolute;
-  z-index: 2;
-  right: clamp(18px, 5vw, 80px);
-  top: 50%;
-  width: min(42vw, 560px);
-  transform: translateY(-45%);
-  pointer-events: none;
-}
-
-.hero-visual::before {
-  content: "";
-  position: absolute;
-  inset: -7%;
-  border-radius: 50%;
-  background:
-    radial-gradient(circle, rgba(255, 228, 109, 0.2) 0 42%, transparent 68%),
-    conic-gradient(from 30deg, rgba(255, 228, 109, 0.08), rgba(255, 150, 31, 0.34), rgba(255, 228, 109, 0.08));
-  filter: blur(8px);
-}
-
-.hero-visual img {
-  position: relative;
-  display: block;
-  width: 100%;
-  aspect-ratio: 1.04;
-  object-fit: cover;
-  border: 1px solid rgba(255, 228, 109, 0.42);
-  border-radius: 50%;
-  box-shadow: 0 34px 90px rgba(0, 0, 0, 0.66), 0 0 42px rgba(255, 150, 31, 0.28);
 }
 
 .trust-strip {
@@ -1037,22 +996,12 @@ p {
   }
 
   .hero {
-    min-height: 980px;
-    align-items: start;
-    padding-top: 80px;
-  }
-
-  .hero-visual {
-    top: auto;
-    right: 50%;
-    bottom: 42px;
-    width: min(62vw, 440px);
-    transform: translateX(50%);
+    min-height: 860px;
   }
 
   .hero-content {
-    width: min(720px, calc(100% - 36px));
-    margin: 0 auto;
+    width: min(780px, calc(100% - 36px));
+    margin-left: clamp(18px, 7vw, 92px);
   }
 
   .intro {
@@ -1074,26 +1023,17 @@ p {
   }
 
   .hero {
-    min-height: 920px;
+    min-height: 790px;
   }
 
   .hero-content {
     width: calc(100% - 32px);
     margin: 0 16px;
-    padding-top: 36px;
+    padding-top: 92px;
   }
 
   .hero h1 {
-    font-size: clamp(3.8rem, 18vw, 5.6rem);
-  }
-
-  .hero-devotional-line {
-    font-size: 1.08rem;
-  }
-
-  .hero-visual {
-    bottom: 32px;
-    width: min(82vw, 360px);
+    font-size: clamp(4rem, 22vw, 6rem);
   }
 
   .button {
